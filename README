@@ -1,0 +1,13 @@
+A simple example using Java's image reading, writing, and processing APIs. I
+often use Java for this kind of thing because it is both powerful, flexible
+and ubiquitous.  The downside is that it is Java ;)
+
+Build: 
+  javac ImageProc.java
+
+Run: 
+  java ImageProc
+
+Running ImageProc will read turtle.jpg, convert it to grayscale, mess with the
+raw pixels a bit, and then write the result to output.jpg. I do not claim this
+is the best way to accomplish this task, but it is a way.
